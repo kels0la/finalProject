@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link rel="stylesheet" href="/styles/styles.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css" media="screen" title="no title" charset="utf-8">
+    <title>Final Project</title>
+</head>
+<body>
+    <div class="container-fluid descriptionBox">
+
+    
+   <nav class="navbar navbar-expand-lg navbar-light background">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <span id="logoImage">This website is</span><span class="typewriter"></span>
+    <div class="navbar-collapse collapse justify-content-end" id="navbarTogglerDemo03">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link hvr-glow" href="/join">Join <span class="sr-only">Join</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-glow" href="/jist">Jist <span class="sr-only">Jist</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-glow" href="/sign-up">Login <span class="sr-only">Login</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="/account" class="nav-link dropdown-toggle hvr-glow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">"Username" <span class="caret"></span></a>
+          <ul class="dropdown-menu background">
+              <li><a class="dropdown-item hvr-glow" href="/balance">Balance</a></li>
+              <li><a class="dropdown-item hvr-glow" href="/profile">Profile</a></li>
+              <li><a class="dropdown-item hvr-glow" href="/settings">Settings</a></li>
+              <li><a class="dropdown-item hvr-glow" href="/help">Help</a></li>
+              <li><a class="dropdown-item hvr-glow" href="/log-out">Log Out</a></li>
+          </ul>  
+        </li>
+    </ul>
+    </div>
+</nav>
+</div>
+    <container class="container-fluid">
+    <row class="row">
+    <div class="col-md-3 ">
+    <mainPanel class="panel-group accordion" id="accordion">
+
+        <Panel1 class="panel panel-default ">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a href="/bitcoin-story">[1] Your Bitcoin Story</a></h6>
+            </div>
+        </Panel1>
+        <Panel2 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" data-target="#workshopToggle" aria-controls="workshopToggle" aria-expanded="false" href="">
+                    [2] Writer's Workshop</a></h6>
+            </div>
+            <div id="workshopToggle" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body ">
+                <li><a href="" class="hvr-glow subLink1">Link 1</a></li>
+                <li><a href="" class="hvr-glow subLink1">Link 2</a></li>
+                </ul>
+            </div>
+        </Panel2>
+        <Panel3 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" aria-controls="contests" aria-expanded="false" data-target="#contests" href="">
+                    [3] The Daily Features</a></h6>
+            </div>
+            <div id="contests" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body">
+                <li><a href="" class="hvr-glow subLink1">Link 1</a></li>
+                </ul>
+            </div>
+        </Panel3>
+        <Panel4 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" aria-controls="talentShowcase" aria-expanded="false" data-target="#talentShowcase" href="">
+                [4] Talent Showcase</a></h6>
+            </div>
+            <div id="talentShowcase" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body">
+                <li><a href="#talentSubOne" data-toggle="collapse" aria-controls="talentSubOne" data-target="#talentSubOne" aria-expanded="false" class="hvr-glow subLink1">
+                    Dancing</a></li>
+                    <div class="collapse" id="talentSubOne">
+                        <ul class="panel-body">
+                            <div class="dropdown-divider"></div>
+                            <li><a href="" class="hvr-glow subLink2" data-parent="#talentSubOne">Performances</a></li>
+                            <li><a href="" class="hvr-glow subLink2" data-parent="#talentSubOne">Solo Skills</a></li>
+                            <div class="dropdown-divider"></div>
+                        </ul>
+                    </div>
+                <li><a href="" class="hvr-glow subLink1">Skits</a></li>
+                <li><a href="" class="hvr-glow subLink1">Singing</a></li>
+                <li><a href="" class="hvr-glow subLink1">Random</a></li>
+                </ul>
+            </div>
+        </Panel4>
+        <Panel5 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" aria-controls="usefulSection" aria-expanded="false" data-target="#usefulSection" href="">
+                    [5] The Useful Section</a></h6>
+            </div>
+            <div id="usefulSection" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body">
+                <li><a href="" class="hvr-glow subLink1">Link 1</a></li>
+                </ul>
+            </div>
+        </Panel5>
+        <Panel6 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" aria-controls="articlesDisc" aria-expanded="false" data-target="#articlesDisc" href="">
+                    [6] Articles & Discussion</a></h6>
+            </div>
+            <div id="articlesDisc" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body">
+                <li><a href="" class="hvr-glow subLink1">Link 1</a></li>
+                </ul>
+            </div>
+        </Panel6>
+        <Panel7 class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title hvr-glow"><a data-toggle="collapse" aria-controls="onceUpon" aria-expanded="false" data-target="#onceUpon" href="">
+                    [7] Once Upon a Time...</a></h6>
+            </div>
+            <div id="onceUpon" data-parent="#accordion" class="panel-collapse collapse">
+                <ul class="panel-body">
+                <li><a href="" class="hvr-glow subLink1">Link 1</a></li>
+                </ul>
+            </div>
+            <div class="botPanelStyle"></div>
+        </Panel7>
+
+    </mainPanel>
+    </div>
+    <div class="col-md-9">
+        {{{ body }}}
+    </div>
+    </row>
+    
+    </container>
+    {{!-- jQuery 3.3.1 --}}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+    {{!-- Bootstrap JS --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    {{!-- Custom JS --}}
+    <script src="/js/index.js"></script>
+    <script src="/js/bundle.js"></script>
+</body>
+</html>
