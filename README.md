@@ -1,5 +1,10 @@
 # finalProject
 
+## First Back-end Step
+
+- User login
+- Integrate database CRUDs with user login account
+
 ## User Story
 
 **Home page (User not logged in):** Feed of what's been trending on the platform
