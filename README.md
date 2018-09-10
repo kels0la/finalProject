@@ -1,5 +1,35 @@
 # finalProject
 
+## User Story
+
+**Home page (User not logged in):** Feed of what's been trending on the platform
+
+**Home page (User logged in):** Feed of people they follow. If none, it displays the feed of what's trending on the platform
+
+**Top right**: Display a create account / login / logout amongst other eventually dropdowns to add to user account functionality
+
+    **Create account**: Ask for user details. User name and password
+    **Login**: Prompt to login with user name / password / password reset
+    **Logout**: Logs the user out of the system
+    
+**Top Navigation**: 7 links, looking good on mobile
+
+**Triple sorting of the categories**: A best of the past, a trending, and a "new" ordering will be include for each. They'll be labeled "Hall of Fame", "Greatest of the Latest", and "Brand New".
+
+**Listoka page**: An ordered list of topics created, sorted by newest. Admin account posts for free. User account is charged $1.00 to post a new topic (if possible, otherwise that will not be enabled). User account is charged $.03 to comment.
+
+**Bitcoin Story page**: Three panels on desktop. (Hall of Fame, Greatest of the Latest, Brand New). On mobile, we will display the trending version but give the user the option to change it.
+
+**Stories page**: The three panels on the desktop once again. This will have 7 story categories to start. Each will need their own 3 panels too.
+
+**Writer's Workshop page**: The three panels on the desktop once again. This will have 7 story categories to start. Each will need their own 3 panels too.
+
+**Talent Showcase page**: The three panels on the desktop once again. This will have 7 story categories to start. Each will need their own 3 panels too.
+
+**Openbazaar and BCH Acceptance page**: Two panels: A feed of what's new. An overall list of each user that paid to advertise.
+
+**Your Talent page**: A panel that displays a list of the newest posts from people you follow. If there are none, it displays a feed of what's trending.
+
 ## The Categories
 
 [1] Listoka
